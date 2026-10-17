@@ -1,7 +1,7 @@
 import React from "react";
 import {createRoot} from "react-dom/client";
 import {flushSync} from "react-dom";
-import {AppName,LayoutApp} from "./LayoutApp";
+import {AppName,LayoutApp} from "./1-page/layout";
 import "./style.css";
 import "./mobile.css";
 function ensureStylesheet(){const id="mfe-layout-styles";if(document.getElementById(id))return;const link=document.createElement("link");link.id=id;link.rel="stylesheet";const entryUrl=new URL(import.meta.url);const stylesheetUrl=new URL("./assets/mfe-layout.css",entryUrl);stylesheetUrl.search=entryUrl.search;link.href=stylesheetUrl.href;document.head.append(link)}
