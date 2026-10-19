@@ -2,8 +2,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { flushSync } from "react-dom";
 import { AppName, LayoutApp } from "./1-page/layout";
-import "./style.css";
-import "./mobile.css";
+import "./style.scss";
+import "./mobile.scss";
 function ensureStylesheet() {
   const id = "mfe-layout-styles";
   if (document.getElementById(id)) return;

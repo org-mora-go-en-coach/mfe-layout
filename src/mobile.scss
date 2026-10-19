@@ -1,0 +1,14 @@
+.mg-mobile-only {
+  display: none !important;
+}
+@media (max-width: 560px) {
+  .mg-sidebar {
+    nav {
+      grid-template-columns: repeat(5, 1fr) !important;
+
+      .mg-mobile-only {
+        display: grid !important;
+      }
+    }
+  }
+}

@@ -1,10 +1,13 @@
+$background-color: #fff;
+$text-color: #0d0d0d;
+
 :root {
   color-scheme: light;
-  --mg-bg: #fff;
+  --mg-bg: #{$background-color};
   --mg-sidebar: #f9f9f9;
   --mg-hover: #ececec;
   --mg-line: #e5e5e5;
-  --mg-text: #0d0d0d;
+  --mg-text: #{$text-color};
   --mg-muted: #6b6b6b;
   --mg-accent: #10a37f;
 }
